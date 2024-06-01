@@ -1,0 +1,66 @@
+Check git version => git --version
+
+configure global (All Repos) git account name => git config --global user.name "username"
+configure git account email => git config --global user.email "email"
+
+configure current(Particular Repos) git account name => git config user.name "username"
+configure git account email => git config user.email "email"
+
+check current git user => git config --list
+
+check git status => git status
+
+check git status in easy way => git status --short
+
+add new changes in staging area => git add fileName || .(All Files) || --all (All Files) || -A (All Files)
+
+commit statged code => git commit -m "message"
+
+direct commit without staging => git commit -a -m "message"
+
+git help command => git --help -all
+
+create new git branch => git branch branch_name
+
+git all branch list => git branch
+
+switch branch => git checkout branch_name
+
+create and switch branch => git checkout -b branch_name
+
+merge the branch in current branch => git merge branch_name
+
+delete the branch => git branch -D branch_name
+
+create public repo on github and add into local => git remote add origin github_repo_link
+
+push our branch to the origin url, and set it as the default remote branch => git push --set-upstream origin branch_name
+
+fetch from the branch => git fetch origin
+
+check log of specific branch => git log origin/branch_name
+
+check diffrence in branch with local => git diff origin/branch_name
+
+repo origin/branch merge with local => git merge origin/branch_name
+
+update local => git pull origin
+
+push to origin => git push origin
+
+pull branch from github => git pull => git status => git branch -a (for all branch) || -r (for only remote branch)
+
+push from local to github => git push origin branch_name
+
+
+
+
+
+
+
+
+
+
+
+
+
